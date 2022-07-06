@@ -12,7 +12,7 @@ The goal is to develop an efficient compiler/interpreter for a `functional progr
 
 Project Pipeline
 ----------------
-People familiar with programming languages would realise that the language will start with a `lexer <https://en.wikipedia.org/wiki/Lexical_analysis>`_ and a `parser <https://en.wikipedia.org/wiki/Parsing>`_. This tools will convert human-readable source code into computer-modifiable data structures. Just like Haskell, we will be implementing an intermediate and much simple **Core** language, which would be very similiar in structure to another functional programming language called `Lisp <https://en.wikipedia.org/wiki/Lisp_(programming_language)>`_. The front end **Nemo** language will be then `desugared <https://en.wikipedia.org/wiki/Syntactic_sugar>`_ into the **Core** language. We will then *either/both* interpret the **Core** language, *or/and* compile it into some machine readable/portable format (like assembly or C). Optimizations will occur throughout the pipeline.
+People familiar with programming languages would realise that the language will start with a `lexer <https://en.wikipedia.org/wiki/Lexical_analysis>`_ and a `parser <https://en.wikipedia.org/wiki/Parsing>`_. These will convert human-readable source code into computer-modifiable data structures. Just like Haskell, we will be implementing an intermediate and much simple **Core** language, which would be very similiar in structure to another functional programming language called `Lisp <https://en.wikipedia.org/wiki/Lisp_(programming_language)>`_. The front end **Nemo** language will be then `desugared <https://en.wikipedia.org/wiki/Syntactic_sugar>`_ into the **Core** language. We will then *either/both* interpret the **Core** language, *or/and* compile it into some machine readable/portable format (like assembly or C). Optimizations will occur throughout the pipeline.
 
 Tentative Timeline
 ------------------
@@ -28,8 +28,8 @@ Prerequisites
 -------------
 1. C programming language: Especially pointers!
 2. C++ programming: How to `overload operators <https://en.cppreference.com/w/cpp/language/operators>`_, basic containers in the `STL <https://en.cppreference.com/w/cpp>`_, and you will have to forget some OOP concepts like inheritance.
-3. Basics of functional programming: Download `Haskell <https://www.haskell.org/>`_ and give it a whirl! You should atleast *know* the paradigm you are *implementing*!
-4. Basic computer science theory: Just give the `Wikipedia page on Lambda Calculus <https://en.wikipedia.org/wiki/Lambda_calculus>`_ and see if it interests you!
+3. Basics of functional programming: Download `Haskell <https://www.haskell.org/>`_ and give it a whirl! You should atleast *know* the *basics* of the paradigm you are *implementing*!
+4. Basic computer science theory: Just give the `Wikipedia page on Lambda Calculus <https://en.wikipedia.org/wiki/Lambda_calculus>`_ a look and see if it interests you!
 5. Good programming practices: Documenting your code, uniform formatting, good identifier names etc..
 6. Interest in the project! 
 
