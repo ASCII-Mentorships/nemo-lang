@@ -1,6 +1,6 @@
-========================================
-Nemo: A Functional Programming Langauage
-========================================
+=======================================
+Nemo: A Functional Programming Language
+=======================================
 .. code:: haskell
 	
 	-- Hello, World!
