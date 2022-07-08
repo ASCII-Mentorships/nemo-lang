@@ -1,10 +1,12 @@
 =======================================
 Nemo: A Functional Programming Language
 =======================================
-.. code:: haskell
+.. code:: math
 	
-	-- Hello, World!
-	main = printLn "Hello, World!"
+	\AxiomC{form}
+	\UnaryInfC{form}
+	\BinaryInfC{form}
+	\TrinaryInfC{form}
 
 Project Idea 
 ------------
