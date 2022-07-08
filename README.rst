@@ -1,12 +1,6 @@
 =======================================
 Nemo: A Functional Programming Language
 =======================================
-.. code:: math
-	
-	\AxiomC{form}
-	\UnaryInfC{form}
-	\BinaryInfC{form}
-	\TrinaryInfC{form}
 
 Project Idea 
 ------------
