@@ -42,13 +42,10 @@ A working functional programming language that you made, which would run code li
 	main = printIntLn $ fac 100
 	-- Yay!
 
-Work that has already been done
--------------------------------
-TODO
-
 Expectations
 ------------
-TODO
+1. You should be able to write clean efficient code and able to make good use of the standard library
+2. As this is an academic project, I(We) expect all code to be very nicely documented and explained. The hope is to generate documentation from the code, see `Literate Programming <https://en.wikipedia.org/wiki/Literate_programming>`_.
 
 Project Mentors
 ---------------
